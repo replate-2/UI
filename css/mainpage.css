@@ -127,3 +127,53 @@ table {
   border-spacing: 0;
 }
 
+
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 5.5rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  display: block;
+  margin: 0px auto;
+  font-size: 4rem;
+}
+
+nav {
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: black;
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
