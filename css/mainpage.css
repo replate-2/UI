@@ -140,9 +140,12 @@ html {
 header {
   background-color: palevioletred;
   width: 100%;
-  /* display: flex; */
-	/* justify-content: flex-end; */
+  /* display: flex; 
+  justify-content: flex-end; */
+  /* height: 250px; */
+ 
 }
+
 
 
 h1 {
