@@ -106,6 +106,7 @@ section {
 }
 body {
   line-height: 1;
+  background-color: lightblue;
 }
 ol,
 ul {
@@ -136,8 +137,18 @@ html {
   font-size: 62.5%;
 }
 
+header {
+  background-color: palevioletred;
+  width: 100%;
+  /* display: flex; */
+	/* justify-content: flex-end; */
+}
+
+
 h1 {
-  font-size: 5.5rem;
+  font-size: 8.5rem;
+  color: white;
+  text-align: center;
 }
 
 h2 {
@@ -146,22 +157,51 @@ h2 {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   line-height: 1.4;
+  color: black;
 }
 
 .container {
+  /* max-width: 1500px;  */
+  width: 100%;
+  margin: 0 auto; 
+}
+
+
+nav {
+  text-align: right;
+  color: black;
+  width: 90%;
+
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: white;
+  font-size: 2.6rem;
+  padding-left: 30px;
+}
+
+a:hover {
+  color:lightblue;
+}
+
+/* .headerclass {
+  display:flex;
+  justify-content: center;
+} */
+
+.minicontainer {
   max-width: 1500px;
   width: 100%;
   margin: 0 auto;
 }
-h1 {
-  display: block;
-  margin: 0px auto;
-  font-size: 4rem;
-}
 
-nav {
+
+
+/* nav {
   text-align: center;
   color: black;
   width: 100%;
@@ -170,10 +210,13 @@ nav {
 nav a {
   text-decoration: none;
   margin-left: 30px;
-  color: black;
-  font-size: 1.6rem;
-  
+  color: white;
+  font-size: 2.6rem;
 }
+
+a:hover {
+  color:lightblue;
+} */
 
 img {
   max-width: 100%;
@@ -182,7 +225,7 @@ img {
 
 .firsttwo {
 	display:flex;
-	flex-direction:row;
+  flex-direction:row;
 }
 .firstleft, .firstright{
 	width: 48%;
@@ -200,7 +243,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 4% 7px;
+  margin: 4% 7px;
 }
 
 .thirdtwo {
@@ -217,6 +260,9 @@ img {
 
 footer {
   text-align: center;
+  background-color: palevioletred;
+  color: white;
+  padding-top: 50px;
 }
 
 
