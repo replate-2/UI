@@ -218,3 +218,80 @@ img {
 footer {
   text-align: center;
 }
+
+
+
+
+
+
+/* below this line is aboutpage */ 
+
+.firsttwoa {
+	display:flex;
+	flex-direction:row;
+}
+.firstlefta, .firstrighta{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 4% 70px;
+}
+.secondtwoa {
+	display:flex;
+	flex-direction:row;
+}
+.secondlefta, .secondrighta{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 4% 7px;
+}
+
+.thirdtwoa {
+	display:flex;
+	flex-direction:row;
+}
+.thirdlefta, .thirdrighta{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 4% 70px;
+}
+
+.fourthtwoa {
+	display:flex;
+	flex-direction:row;
+}
+.fourthlefta, .fourthrighta{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 4% 7px;
+}
+.fifthtwoa {
+	display:flex;
+	flex-direction:row;
+}
+.fifthlefta, .fifthrighta{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 4% 70px;
+}
+
+.sisthtwoa {
+	display:flex;
+	flex-direction:row;
+}
+.sixthlefta, .sixthrighta{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 4% 7px;
+}
