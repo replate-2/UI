@@ -292,7 +292,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 4% 7px;
+	margin: 4% 70px;
 }
 
 .thirdtwoa {
@@ -316,7 +316,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 4% 7px;
+	margin: 4% 70px;
 }
 .fifthtwoa {
 	display:flex;
@@ -330,7 +330,7 @@ footer {
 	margin: 4% 70px;
 }
 
-.sisthtwoa {
+.sixthtwoa {
 	display:flex;
 	flex-direction:row;
 }
@@ -339,5 +339,5 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 4% 7px;
+	margin: 4% 70px;
 }
