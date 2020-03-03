@@ -352,6 +352,7 @@ footer {
     margin-left: -30px;
 
   }
+}
 
 
 @media (max-width:500px) {
@@ -374,7 +375,7 @@ footer {
    text-align: center;
    margin: 0 auto;
  }
-}
+ }
 
  @media (max-width:500px) {
   .thirdtwo {
@@ -385,4 +386,82 @@ footer {
    text-align: center;
    margin: 0 auto;
  }
+}
+
+
+ /* about phone */ 
+
+
+@media (max-width:500px) {
+  .firsttwoa {
+   width: 100%;
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
  }
+}
+
+ @media (max-width:500px) {
+  .secondtwoa {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
+ }
+ }
+
+ @media (max-width:500px) {
+  .thirdtwoa {
+   width: 100%;
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
+ }
+}
+
+
+
+@media (max-width:500px) {
+  .fourthtwoa {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
+ }
+}
+
+ @media (max-width:500px) {
+  .fifthtwoa {
+   width: 100%;
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
+ }
+ }
+
+ @media (max-width:500px) {
+  .sixthtwoa {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin: 0 auto;
+ }
+}
+
+ @media (max-width:500px) {
+   h2 {
+     font-size: 5rem;
+   }
+  }
