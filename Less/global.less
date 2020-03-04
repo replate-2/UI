@@ -1,0 +1,430 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: lightblue;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: palevioletred;
+  width: 100%;
+ 
+}
+
+
+
+h1 {
+  font-size: 10.5rem;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+.replateh2 {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 2.6rem;
+  line-height: 1.4;
+  color: black;
+}
+
+.container {
+  /* max-width: 1500px;  */
+  width: 100%;
+  margin: 0 auto; 
+}
+
+
+nav {
+  text-align: right;
+  color: black;
+  width: 90%;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: white;
+  font-size: 2.6rem;
+  padding-left: 30px;
+}
+
+a:hover {
+  color:lightblue;
+}
+
+
+
+.minicontainer {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.firsttwo {
+	display:flex;
+  flex-direction:row;
+}
+.firstleft, .firstright{
+	.mixin4();
+}
+.secondtwo {
+	display:flex;
+	flex-direction:row;
+}
+.secondleft, .secondright{
+	.mixin4();
+}
+
+.thirdtwo {
+	display:flex;
+	flex-direction:row;
+}
+.thirdleft, .thirdright{
+    .mixin4();
+}
+
+footer {
+  text-align: center;
+  background-color: palevioletred;
+  color: white;
+  padding-top: 50px;
+}
+
+
+
+
+
+
+/* below this line is aboutpage */ 
+
+.firsttwoa {
+	display:flex;
+	flex-direction:row;
+}
+.firstlefta, .firstrighta{
+	.mixin3();
+}
+.secondtwoa {
+	display:flex;
+	flex-direction:row;
+}
+.secondlefta, .secondrighta{
+	.mixin3();
+}
+
+.thirdtwoa {
+	display:flex;
+	flex-direction:row;
+}
+.thirdlefta, .thirdrighta{
+    .mixin3();
+}
+
+.fourthtwoa {
+	display:flex;
+	flex-direction:row;
+}
+.fourthlefta, .fourthrighta{
+	.mixin3();
+}
+.fifthtwoa {
+	display:flex;
+	flex-direction:row;
+}
+.fifthlefta, .fifthrighta{
+    .mixin3();
+}
+
+.sixthtwoa {
+	display:flex;
+	flex-direction:row;
+}
+.sixthlefta, .sixthrighta{
+	.mixin3();
+}
+
+
+
+
+/* media section */ 
+@media (max-width:500px) { 
+  nav { 
+    width: 90%;
+    margin-left: -30px;
+
+  }
+}
+
+
+@media (max-width:500px) {
+  .firsttwo {
+    .mixin1();
+ }
+}
+
+ @media (max-width:500px) {
+  .secondtwo {
+    .mixin2();
+ }
+ }
+
+ @media (max-width:500px) {
+  .thirdtwo {
+    .mixin1();
+ }
+}
+
+
+ /* about phone */ 
+
+
+@media (max-width:500px) {
+  .firsttwoa {
+.mixin1();
+ }
+}
+
+ @media (max-width:500px) {
+  .secondtwoa {
+.mixin2();
+ }
+ }
+
+ @media (max-width:500px) {
+  .thirdtwoa {
+.mixin1();
+ }
+}
+
+
+
+@media (max-width:500px) {
+  .fourthtwoa {
+.mixin2();
+ }
+}
+
+ @media (max-width:500px) {
+  .fifthtwoa {
+    .mixin1();
+ }
+ }
+
+ @media (max-width:500px) {
+  .sixthtwoa {
+.mixin2();
+ }
+}
+
+ @media (max-width:500px) {
+   h2 {
+     font-size: 5rem;
+   }
+  }
+
+
+
+  /* .begoodbuttonplz {
+    border-radius: 12px;
+} */
+
+.begoodbuttonplz1{
+    background-color: palevioletred;
+  border-color: white;
+  color: white;
+  /* padding: 10px; */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 20%;
+  font-size: 5rem;
+  border-radius: 12px;
+  margin-top: -60px; 
+   float: left;
+ margin-left: 50px; 
+}
+
+button:hover{
+  color: lightblue;
+  border-color: lightblue;
+}
+
+.begoodbuttonplz{
+  background-color: palevioletred;
+border-color: white;
+color: white;
+/* padding: 10px; */
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+margin: 0 auto;
+width: 50%;
+font-size: 5rem;
+border-radius: 12px;
+margin-top: -30px; 
+float: left;
+margin-left: 50px;
+margin: 10px;
+}
+
+
+ @media (max-width:500px){
+ .begoodbuttonplz1 {
+ display:none;
+ }
+}
+
+@media (min-width:600px){
+  .begoodbuttonplz {
+  display:none;
+  }
+ }
+
+
+ 
