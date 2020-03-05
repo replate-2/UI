@@ -182,13 +182,12 @@ img {
 }
 
 
-.begoodbuttonplz1{
+.headerbutton{
     background-color: @headerbackground;
   border-color: @headerfont;
   color: @headerfont;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
   margin: 0 auto;
   width: 20%;
   font-size: 5rem;
@@ -203,13 +202,12 @@ button:hover{
   border-color: @bodycolor;
 }
 
-.begoodbuttonplz{
+.bodybutton{
   background-color: @headerbackground;
 border-color: @headerfont;
 color: @headerfont;
 text-align: center;
 text-decoration: none;
-font-size: 16px;
 margin: 0 auto;
 width: 50%;
 font-size: 5rem;
@@ -221,27 +219,20 @@ margin: 10px;
 }
 
 
- @media (max-width:501px){
- .begoodbuttonplz1 {
+ @media (max-width:801px){
+ .headerbutton {
  display:none;
  }
 }
 
-@media (min-width:501px){
-  .begoodbuttonplz {
+@media (min-width:801px){
+  .bodybutton {
   display:none;
   }
  }
 
  @media (max-width:1100px) {
-     .begoodbuttonplz1 {
-     font-size:3rem;
+     .headerbutton {
+     font-size:3.8rem;
      }
  }
-
- @media (max-width:750px) {
-    .begoodbuttonplz1 {
-    font-size:1.9rem;
-    margin-left: -8px;
-    }
-}

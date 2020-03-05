@@ -490,13 +490,12 @@ img {
   justify-content: center;
   margin: 4% 70px;
 }
-.begoodbuttonplz1 {
+.headerbutton {
   background-color: palevioletred;
   border-color: white;
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
   margin: 0 auto;
   width: 20%;
   font-size: 5rem;
@@ -509,13 +508,12 @@ button:hover {
   color: lightblue;
   border-color: lightblue;
 }
-.begoodbuttonplz {
+.bodybutton {
   background-color: palevioletred;
   border-color: white;
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
   margin: 0 auto;
   width: 50%;
   font-size: 5rem;
@@ -525,31 +523,31 @@ button:hover {
   margin-left: 50px;
   margin: 10px;
 }
-@media (max-width: 501px) {
-  .begoodbuttonplz1 {
+@media (max-width: 801px) {
+  .headerbutton {
     display: none;
   }
 }
-@media (min-width: 501px) {
-  .begoodbuttonplz {
+@media (min-width: 801px) {
+  .bodybutton {
     display: none;
   }
 }
 @media (max-width: 1100px) {
-  .begoodbuttonplz1 {
-    font-size: 3rem;
-  }
-}
-@media (max-width: 750px) {
-  .begoodbuttonplz1 {
-    font-size: 1.9rem;
-    margin-left: -8px;
+  .headerbutton {
+    font-size: 3.8rem;
   }
 }
 nav {
   text-align: right;
   color: black;
   width: 90%;
+}
+@media (max-width:800px) {
+  nav {
+    width: 90%;
+    margin-left: -120px;
+  }
 }
 @media (max-width:500px) {
   nav {
@@ -583,7 +581,6 @@ footer {
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
   margin: 0 auto;
   width: 50%;
   font-size: 3rem;
