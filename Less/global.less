@@ -24,6 +24,9 @@ h1 {
 h2 {
   font-size: 3.2rem;
   text-align: center;
+  @media @phone {
+    font-size: 5rem;
+  }
 }
 .replateh2 {
   margin-bottom: 20px;
@@ -36,30 +39,9 @@ p {
 }
 
 .container {
-  /* max-width: 1500px;  */
   width: 100%;
   margin: 0 auto; 
 }
-
-
-// nav {
-//   text-align: right;
-//   color: black;
-//   width: 90%;
-// }
-
-// nav a {
-//   text-decoration: none;
-//   margin-left: 30px;
-//   color: white;
-//   font-size: 2.6rem;
-//   padding-left: 30px;
-// }
-
-// a:hover {
-//   color:lightblue;
-// }
-
 
 
 .minicontainer {
@@ -109,19 +91,6 @@ img {
     .mixin4();
 }
 
-footer {
-  text-align: center;
-  background-color: palevioletred;
-  color: white;
-  padding-top: 50px;
-}
-
-
-
-
-
-
-/* below this line is aboutpage */ 
 
 .firsttwoa {
 	display:flex;
@@ -194,47 +163,6 @@ footer {
 }
 
 
-
-
-/* media section */ 
-@media (max-width:500px) { 
-  nav { 
-    width: 90%;
-    margin-left: -30px;
-
-  }
-}
-
-
-// @media (max-width:500px) {
-//   .firsttwo {
-//     .mixin1();
-//  }
-// }
-
-//  @media (max-width:500px) {
-//   .secondtwo {
-//     .mixin2();
-//  }
-//  }
-
-//  @media (max-width:500px) {
-//   .thirdtwo {
-//     .mixin1();
-//  }
-// }
-
-
- /* about phone */ 
-
-
- @media (max-width:500px) {
-   h2 {
-     font-size: 5rem;
-   }
-  }
-
-
 .begoodbuttonplz1{
     background-color: palevioletred;
   border-color: white;
@@ -261,7 +189,6 @@ button:hover{
   background-color: palevioletred;
 border-color: white;
 color: white;
-/* padding: 10px; */
 text-align: center;
 text-decoration: none;
 font-size: 16px;

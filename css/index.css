@@ -176,6 +176,11 @@ h2 {
   font-size: 3.2rem;
   text-align: center;
 }
+@media (max-width:500px) {
+  h2 {
+    font-size: 5rem;
+  }
+}
 .replateh2 {
   margin-bottom: 20px;
 }
@@ -185,7 +190,6 @@ p {
   color: black;
 }
 .container {
-  /* max-width: 1500px;  */
   width: 100%;
   margin: 0 auto;
 }
@@ -264,13 +268,6 @@ img {
   justify-content: center;
   margin: 4% 7px;
 }
-footer {
-  text-align: center;
-  background-color: palevioletred;
-  color: white;
-  padding-top: 50px;
-}
-/* below this line is aboutpage */
 .firsttwoa {
   display: flex;
   flex-direction: row;
@@ -403,19 +400,6 @@ footer {
   justify-content: center;
   margin: 4% 70px;
 }
-/* media section */
-@media (max-width: 500px) {
-  nav {
-    width: 90%;
-    margin-left: -30px;
-  }
-}
-/* about phone */
-@media (max-width: 500px) {
-  h2 {
-    font-size: 5rem;
-  }
-}
 .begoodbuttonplz1 {
   background-color: palevioletred;
   border-color: white;
@@ -440,7 +424,6 @@ button:hover {
   background-color: palevioletred;
   border-color: white;
   color: white;
-  /* padding: 10px; */
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -473,6 +456,12 @@ nav {
   color: black;
   width: 90%;
 }
+@media (max-width:500px) {
+  nav {
+    width: 90%;
+    margin-left: -30px;
+  }
+}
 nav a {
   text-decoration: none;
   margin-left: 30px;
@@ -482,4 +471,14 @@ nav a {
 }
 a:hover {
   color: lightblue;
+}
+footer {
+  text-align: center;
+  background-color: palevioletred;
+  color: white;
+  padding-top: 50px;
+}
+.footerclass {
+  padding-bottom: 50px;
+  font-size: 10rem;
 }
