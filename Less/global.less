@@ -8,7 +8,7 @@ html {
 }
 
 header {
-  background-color: palevioletred;
+  background-color: @headerbackground;
   width: 100%;
  
 }
@@ -17,7 +17,7 @@ header {
 
 h1 {
   font-size: 10.5rem;
-  color: white;
+  color: @headerfont;
   text-align: center;
 }
 
@@ -63,6 +63,9 @@ img {
   @media @phone {
       .mixin1();
   }
+  @media @tablet {
+    .mixin1();
+}
 }
 .firstleft, .firstright{
 	.mixin4();
@@ -72,7 +75,9 @@ img {
     flex-direction:row;
     @media @phone {
         .mixin2();
-
+    }
+    @media @tablet {
+        .mixin2();
     }
 }
 .secondleft, .secondright{
@@ -84,7 +89,9 @@ img {
     flex-direction:row;
     @media @phone {
         .mixin1();
-
+    }
+    @media @tablet {
+        .mixin1();
     }
 }
 .thirdleft, .thirdright{
@@ -97,7 +104,9 @@ img {
     flex-direction:row;
     @media @phone {
         .mixin1();
-
+    }
+    @media @tablet {
+        .mixin1();
     }
 }
 .firstlefta, .firstrighta{
@@ -108,7 +117,9 @@ img {
     flex-direction:row;
     @media @phone {
         .mixin2();
-
+    }
+    @media @tablet {
+        .mixin2();
     }
 }
 .secondlefta, .secondrighta{
@@ -120,7 +131,9 @@ img {
     flex-direction:row;
     @media @phone {
         .mixin1();
-
+    }
+    @media @tablet {
+        .mixin1();
     }
 }
 .thirdlefta, .thirdrighta{
@@ -132,7 +145,9 @@ img {
     flex-direction:row;
     @media @phone {
         .mixin2();
-
+    }
+    @media @tablet {
+        .mixin2();
     }
 }
 .fourthlefta, .fourthrighta{
@@ -143,7 +158,9 @@ img {
     flex-direction:row;
     @media @phone {
         .mixin1();
-
+    }
+    @media @tablet {
+        .mixin1();
     }
 }
 .fifthlefta, .fifthrighta{
@@ -155,7 +172,9 @@ img {
     flex-direction:row;
     @media @phone {
         .mixin2();
-
+    }
+    @media @tablet {
+        .mixin2();
     }
 }
 .sixthlefta, .sixthrighta{
@@ -164,10 +183,9 @@ img {
 
 
 .begoodbuttonplz1{
-    background-color: palevioletred;
-  border-color: white;
-  color: white;
-  /* padding: 10px; */
+    background-color: @headerbackground;
+  border-color: @headerfont;
+  color: @headerfont;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -181,14 +199,14 @@ img {
 }
 
 button:hover{
-  color: lightblue;
-  border-color: lightblue;
+  color: @bodycolor;
+  border-color: @bodycolor;
 }
 
 .begoodbuttonplz{
-  background-color: palevioletred;
-border-color: white;
-color: white;
+  background-color: @headerbackground;
+border-color: @headerfont;
+color: @headerfont;
 text-align: center;
 text-decoration: none;
 font-size: 16px;
@@ -203,7 +221,7 @@ margin: 10px;
 }
 
 
- @media (max-width:700px){
+ @media (max-width:501px){
  .begoodbuttonplz1 {
  display:none;
  }
@@ -221,4 +239,9 @@ margin: 10px;
      }
  }
 
- 
+ @media (max-width:750px) {
+    .begoodbuttonplz1 {
+    font-size:1.9rem;
+    margin-left: -8px;
+    }
+}
